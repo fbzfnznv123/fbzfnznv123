@@ -1,0 +1,31 @@
+// Light theme
+$light-primary: #093FB4;
+$light-bg-1: #FFFCFB;
+$light-bg-2: #FFD8D8;
+$light-accent: #ED3500;
+
+// Dark theme
+$dark-primary: #F1F1F1;
+$dark-bg-1: #FDB827;
+$dark-bg-2: #21209C;
+$dark-accent: #23120B;
+
+// Common
+@font-face {
+  font-family: 'Noto Sans Lao';
+  src: url('../font/Noto_Sans_Lao/static/NotoSansLao-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../font/Noto_Sans/static/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+$font-lao: 'Noto Sans Lao', sans-serif;
+$font-eng: 'Noto Sans', sans-serif;
